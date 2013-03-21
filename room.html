@@ -1,0 +1,22 @@
+<!doctype html>
+<title>Silly Game Waiting Room</title>
+
+<!-- Loading  nodeGame libraries and CSS -->
+<script src="/socket.io/socket.io.js"></script> 
+<script src="/javascripts/nodegame-full.js" charset="utf-8"></script>
+<link rel='stylesheet' href='/stylesheets/player.css'></link>
+<!-- end -->
+
+
+<body>
+<div id="root">
+  <h2 id="h2title">Please be patient. We are waiting for all the players to connect<span id="wait">...</span></h2>
+</div>
+<script>
+  window.onload = function () {
+	 
+		  node.connect("/silly");
+    
+	}
+</script>
+</body>

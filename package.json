@@ -1,0 +1,39 @@
+{
+  "name": "sillygame",
+  "description": "It's just a silly game.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Stefano Balietti",
+    "email": "sbalietti@ethz.ch",
+    "url": "http://www.nodegame.org"
+  }
+,
+  "main": "./index.html"
+,
+  "keywords": [
+    "test",
+    "silly",
+    "learn nodegame"
+  ]
+,
+  "repository": {
+    "type": "git",
+     "url": "git://github.com/nodegame/sillygame.git"
+  },
+  "license": "MIT/X11"
+,
+  "engines": {
+    "node": "*",
+    "nodegame": "0.6.0"
+  }
+,
+	"nodegame": {
+	   "logic": "./server/logic.js",
+	   "dependencies": {
+	     "not_used": "for now"
+	   },
+	   "widgets": {
+	     "moneytalk": "0.1.0"
+	   }
+	}
+}
