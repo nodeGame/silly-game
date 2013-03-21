@@ -15,7 +15,12 @@
 <script>
   window.onload = function () {
 	 
-		  node.connect("/silly");
+	   
+	  node.setup('socket', {
+	   type: 'SocketIo'
+	  });
+	  
+		node.connect("/room");
     
 	}
 </script>

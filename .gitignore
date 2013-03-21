@@ -2,11 +2,7 @@
 .settings
 
 /tests/
-/server
-/examples/test/*
-/stuff/f
 /log
-/client/releases/*
 jquery
 
 /log/
@@ -25,11 +21,3 @@ node_modules/
 
 node_modules_old
 
-/nodegame_clients/pr.js
-/nodegame_clients/node_modules/peerreview/
-pr_server.js
-/games/PR
-/games/TEST
-/games/PR2/
-/games/PR3/
-/games/PR4/
